@@ -1,0 +1,6 @@
+testcases\AmazonUidTest.class
+testcases\AmazonPwdTest.class
+testcases\GoogleSearch.class
+testcases\stepDefLogin.class
+testcases\RunFeature.class
+testcases\LoginPage.class
