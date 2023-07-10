@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="37.768" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Examples of BDD" name=" - Example #1.1" time="9.56">
+<system-out><![CDATA[
+Given I went to http://www.google.com.......................................passed
+When I search the pizza.....................................................passed
+Then result must come.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Examples of BDD" name=" - Example #1.2" time="6.155">
+<system-out><![CDATA[
+Given I went to http://www.google.com.......................................passed
+When I search the burger....................................................passed
+Then result must come.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Examples of BDD" name="Successful login with valid credentials" time="21.304">
+<system-out><![CDATA[
+Given User launch Chrome Driver.............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and password as "admin"......passed
+And click on login..........................................................passed
+Then page title should be "Dashboard / nopcommerce administration"..........passed
+When user click on logout link..............................................passed
+Then page title should be "Your Store. Login"...............................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
